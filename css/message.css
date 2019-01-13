@@ -1,0 +1,38 @@
+.modal{
+	display: none;
+	position: fixed;
+	z-index: 3;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.modal__contant{
+	background-color: #fefefe;
+	margin: 20% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 40%;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+
+.icon__close{
+	color: #aaa;
+	position: relative;
+	bottom: 50px;
+	left: 20px;
+	float: right;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.icon__close:hover{
+	cursor: pointer;
+	color: #fcac45;
+}

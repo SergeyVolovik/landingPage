@@ -1,0 +1,180 @@
+@media screen and (max-width: 890px) {
+
+    .visible-lg {
+        display: none;
+    }
+
+    .m-menu-link {
+        display: block;
+    }
+
+    .header__logo ul {
+        display: none;
+    }
+
+    .about {
+        margin: 0 auto;
+    }
+
+    .about__image-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 35px 0;
+    }
+
+    .about__image {
+        margin: 0 auto;
+        margin-right: 0;
+    }
+
+    .about__text {
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 35px;
+    }
+
+    .about__title {
+        display: flex;
+        justify-content: center;
+    }
+
+    .team__content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .team__block {
+        width: 40%;
+    }
+
+    .services__content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .services__block {
+        width: 40%;
+    }
+
+    .clients__logo {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .clients__item {
+        margin: 15px 0;
+    }
+
+    .work__logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .logos__item {
+        margin: 15px;
+    }
+
+    .contact__name-email {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact__email-name {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .contact__message {
+        margin-top: 0;
+    }
+
+    .contact__text {
+        width: 100%;
+    }
+
+    .work__text {
+        width: 100%;
+    }
+
+    .services__text {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .contact__submit{
+        margin: 35px auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .title__sections {
+        font-size: 34px;
+    }
+
+    .about__title {
+        font-size: 34px;
+    }
+
+    .contact__form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .title__sections {
+        font-size: 24px;
+    }
+
+    .header__title {
+        font-size: 24px;
+    }
+
+    .header__discript {
+        font-size: 16px;
+    }
+
+    .about__title {
+        font-size: 24px;
+    }
+
+    .about__text {
+        font-size: 16px;
+    }
+
+    .services__block {
+        width: 100%;
+    }
+
+    .team__block {
+        width: 100%;
+    }
+
+    .testimonials__text {
+        font-size: 15px;
+    }
+
+    .list__item {
+        font-size: 14px;
+    }
+
+    .list__item span {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .clients__logo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clients__item {
+        margin: 35px 0;
+    }
+}
