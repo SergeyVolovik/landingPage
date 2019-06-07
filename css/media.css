@@ -1,17 +1,39 @@
-@media screen and (max-width: 890px) {
-
-    .visible-lg {
-        display: none;
+@media (max-width: 940px) {
+    .logo{
+        position: fixed;
+        top: 0;
+        margin-top: 16px;
     }
 
-    .m-menu-link {
+    nav ul{
+        max-height: 0;
+        background: #000;
+    }
+
+    nav.black ul{
+        background: #000;
+    }
+
+    .showing{
+        max-height: 45em;
+    }
+
+    nav ul li{
+        width: 100%;
+        padding: 15px 0;
+        text-align: center;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    .menu-icon{
         display: block;
     }
+}
 
-    .header__logo ul {
-        display: none;
-    }
-
+@media screen and (max-width: 890px) {
+    
     .about {
         margin: 0 auto;
     }
