@@ -7,6 +7,24 @@
  *
  * Copyright (c) 2018 Daniel Eden
  */
+ 
+@keyframes flashing_border{
+  0%{
+    border-color: #fcac45;
+  }
+  50%{
+    border-color: transparent;
+  }
+  100%{
+    border-color: #fcac45;
+  }
+}
+
+@keyframes type{
+    from { 
+      width: 0; 
+    }
+} 
 
 @keyframes spin{
   from{

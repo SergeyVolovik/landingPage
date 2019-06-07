@@ -36,17 +36,23 @@
 //Menu toggle-button
 $(document).ready(function() {
     $('.menu-icon i').on('click', function() {
-        $('nav ul').toggleClass('showing');
+        if ($(".menu-icon i").hasClass("fas fa-bars fa-2x") == true) {
+            $('.menu-icon i').removeClass('fas fa-bars fa-2x').addClass('fas fa-times fa-2x');
+        }else{
+            $('.menu-icon i').removeClass('fas fa-times fa-2x').addClass('fas fa-bars fa-2x');   
+        }
+        $('nav ul').toggleClass('showing',50);
     });
 });
 
 //Add effect for links - "Active link"
  $(document).ready(function() {
     $('.menu a[href^="#"]').click( function() {
-        let aLink = this.href;
+        // let aLink = this.href;
             $('.menu a[href^="#"]').removeClass("active")
             $(this).addClass('active');
-            $('nav ul').toggleClass('showing',200);
+            $('nav ul').toggleClass('showing',50);
+            $('.menu-icon i').removeClass('fas fa-times fa-2x').addClass('fas fa-bars fa-2x');
     });
  });
 

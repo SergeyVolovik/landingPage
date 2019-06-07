@@ -1,24 +1,25 @@
 @media (max-width: 940px) {
-    .logo{
+
+    .logo {
         position: fixed;
         top: 0;
         margin-top: 16px;
     }
 
-    nav ul{
+    nav ul {
         max-height: 0;
         background: #000;
     }
 
-    nav.black ul{
+    nav.black ul {
         background: #000;
     }
 
-    .showing{
+    .showing {
         max-height: 45em;
     }
 
-    nav ul li{
+    nav ul li {
         width: 100%;
         padding: 15px 0;
         text-align: center;
@@ -27,13 +28,21 @@
         box-sizing: border-box;
     }
 
-    .menu-icon{
+    .menu-icon {
         display: block;
+    }
+
+    header {
+        height: 60vh;
+    }
+
+    .header__text {
+        padding: 15px;
     }
 }
 
 @media screen and (max-width: 890px) {
-    
+
     .about {
         margin: 0 auto;
     }
@@ -127,8 +136,8 @@
     }
 }
 
-@media screen and (max-width: 768px){
-    .contact__submit{
+@media screen and (max-width: 768px) {
+    .contact__submit {
         margin: 35px auto;
     }
 }
@@ -190,6 +199,14 @@
 }
 
 @media screen and (max-width: 420px) {
+
+    header {
+        height: 100vh;
+    }
+
+    .header__text {
+        top: 20%;
+    }
 
     .clients__logo {
         display: flex;
